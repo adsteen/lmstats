@@ -6,9 +6,6 @@
 ##' @details include some details here
 ##' @return Returns a one-row data frame containing (at present): slope, intercept, slope standard error, intercept standard error, p value, r-squared, and number of points.
 ##' @export
-##' require(ggplot2)
-##' lm_stats(mpg, xvar="cty", yvar="hwy")
-
 
 lm_stats <- function(d, xvar, yvar, debug=FALSE) {
   # Function to safely return the slope, intercept, slope.se, int.se, rsq, and pvalue of a linear model
